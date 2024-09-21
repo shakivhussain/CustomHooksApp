@@ -19,7 +19,6 @@ const WithoutCustomHooks = () => {
         <View>
             <Text>Without CustomHooks</Text>
 
-
             <FlatList data={data}
                 renderItem={({ item }) => <Text
                     style={{ paddingHorizontal: 16, paddingVertical: 24 }}>{item.title}</Text>}
