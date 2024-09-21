@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 import WithoutCustomHooks from "./components/WithoutCustomHooks";
+import WithCustomHooks from "./components/WIthCustomHooks";
 
 export default function Page() {
   return (
     <View style={styles.container}>
       <View style={styles.main}>
-        <WithoutCustomHooks />
+        <WithCustomHooks />
       </View>
     </View>
   );
